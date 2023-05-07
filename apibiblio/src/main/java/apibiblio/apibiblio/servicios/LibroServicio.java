@@ -27,10 +27,6 @@ public class LibroServicio implements ILibroServicio{
         return libro.isEmpty() ? null : libro.get();
     }
 
-   /* @Override
-    public List<Libro> buscar(String nombre) {
-        return repositorio.buscar(nombre);
-    }*/
 
     @Override
     public Libro guardar(Libro libro) {
