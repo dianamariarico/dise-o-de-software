@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApibiblioApplication<apibiblio>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "apibiblio.apibiblio.ApibiblioApplication",
+            "projectName": "apibiblio",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

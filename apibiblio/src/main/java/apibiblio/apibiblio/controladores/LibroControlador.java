@@ -1,4 +1,4 @@
-package apibiblio.apibiblio.interfaces.controladores;
+package apibiblio.apibiblio.controladores;
 
 import java.util.List;
 

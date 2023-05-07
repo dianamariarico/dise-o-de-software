@@ -1,0 +1,22 @@
+<mat-toolbar
+  class="mat-primary mat-toolbar-single-row mat-elevatmat-z8"
+  color="primary"
+>
+  Libros
+</mat-toolbar>
+<div>
+  <ngx-datatable
+    class="dark"
+    [headerHeight]="50"
+    [footerHeight]="50"
+    [rowHeight]="20"
+    [rows]="libros"
+    [columns]="columnas"
+    [columnMode]="modoColumna.force"
+    [limit]="10"
+    [selectionType]="tipoSeleccion.single"
+    (activate)="onActivate($event)"
+    [rowHeight]="'auto'"
+  >
+  </ngx-datatable>
+</div>
