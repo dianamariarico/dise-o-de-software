@@ -1,10 +1,12 @@
 package apibiblio.apibiblio.modelos;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 
-public class usuario {
+@Entity // se coloca en el foco para importar la libreria que lo identifica como una entidad
+@Table(name = "usuario")
+public class Usuario {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name ="idusuario")
     private long idlusuario;
     
@@ -39,5 +41,6 @@ public class usuario {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     } 
+    
     
 }

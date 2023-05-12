@@ -10,8 +10,6 @@ public interface ILibroServicio {
 
     public Libro obtener(Long idLibro);
 
-    //public List<Libro> buscar(String nombre);
-
     public Libro guardar(Libro libro);
 
     public boolean eliminar(Long idlibro);
