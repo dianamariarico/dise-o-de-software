@@ -8,12 +8,17 @@ import { ReferenciasMaterialModule } from './referencias-material/referencias-ma
 
 import { HttpClientModule } from '@angular/common/http';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
+import { FormsModule } from '@angular/forms';
+import { LibroEditarComponent } from './componentes/libro-editar/libro-editar.component';
+import { DecidirComponent } from './componentes/decidir/decidir.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LibrosComponent
+    LibrosComponent,
+    LibroEditarComponent,
+    DecidirComponent
   ],
   imports: [
     BrowserModule,
@@ -21,6 +26,7 @@ import { NgxDatatableModule } from '@swimlane/ngx-datatable';
     ReferenciasMaterialModule,
     HttpClientModule,
     NgxDatatableModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
